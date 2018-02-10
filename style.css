@@ -1,0 +1,151 @@
+body, h1, h2, h3, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix {
+    clear: both;
+}
+img {
+    width: 100%;
+}
+#border {
+    height: 20px;
+    background-color: grey;
+}
+#top {
+    height: 50px;
+    background-color: gainsboro;
+}
+#topText, #menu1, #menu2, #content, footer {
+    width: 1100px;
+    margin: 0px auto;
+}
+    #topText {        
+        position: relative;
+        color: red;
+    }
+        #topText h1 {
+            font-weight: normal;
+            line-height: 50px;
+        }
+        #topText p {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            line-height: 50px;
+        }
+#m1 {
+    background-color: red;
+    height: 50px;
+}
+    #menu1 ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    #menu1 a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 0px 20px;
+        line-height: 50px;     
+        font-size: 18px;
+        }
+    #menu1 a:hover, #menu1 a.active {
+        background-color: darkred;
+    }
+#m2 {
+    background-color: ghostwhite;    
+    height: 40px;    
+}
+#menu2 {
+    position: relative;    
+}
+    #menu2 ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
+    #menu2 a {
+        display: block;
+        color: grey;
+        line-height: 40px;
+        padding: 0px 20px;        
+    }
+    #menu2 a:hover {
+        text-decoration: none;
+    }
+    #login {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        line-height: 40px;
+    }
+    #login a {
+        float: right;
+        padding: 0px 0px 0px 5px;       
+    }
+#content {
+    margin-top: 20px;
+    text-align: justify;
+}
+main {
+    width: 550px;       
+    float: left;    
+    margin-bottom: 40px;    
+}
+    main h2, main p, main img {
+        padding: 5px 5px;
+    }
+aside {
+    width: 250px;
+    padding: 5px 5px;    
+}
+    aside p {
+        margin-top: 5px;
+    }
+    aside img {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    #center {
+        margin-left: 565px;
+        font-size: 80%;
+    }
+    #right {
+        float: right;
+        font-size: 80%;
+    }
+#bottom {
+    height: 250px;
+    background-color: ghostwhite;    
+}
+#bottomMenu {
+    float: left;
+    width: 200px;
+    padding-top: 30px;
+	padding-bottom: 30px;
+}
+    #bottomMenu ul {
+        list-style-type: none;
+    }
+    #bottomMenu li {
+        margin-bottom: 5px;              
+    }
+    #bottomMenu a {
+        color: gray;
+        font-size: 95%;
+        padding: 5px 5px 5px 0px;        
+        text-decoration: none;
+    }
+#bottomText {
+    margin-left: 250px;   
+    padding-top: 30px;
+}
+#bottomText h1, #bottomText p {
+    color: gray;
+    text-align: center;
+    font-size: 98%;
+}
